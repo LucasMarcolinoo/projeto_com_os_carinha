@@ -1,3 +1,33 @@
-h1 {
+.flex {
+    display: flex;
+    justify-content: space-between;
     
+}
+.container {
+    background-image: url(./images/background.svg);
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+}
+figure {
+    margin: 15px 0px 0 50px;
+}
+.contaainer figure img {
+    width: 254px;
+    height: 144px;
+    margin: 55px 15px;
+}
+.header_nav {
+    width: 626px;
+    align-items: center;
+    font-size: 23px;
+    margin: 5px 0 0 60px;
+}
+.header_nav ul li {
+    padding: 0 20px;
+}
+
+.header {
+    height: 120px;
+    width: 100%;
 }
