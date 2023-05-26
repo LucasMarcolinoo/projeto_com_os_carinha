@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:"Poppins", sans-serif;
+}
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -12,16 +21,16 @@
 figure {
     margin: 15px 0px 0 50px;
 }
-.contaainer figure img {
+.container figure img {
     width: 254px;
     height: 144px;
     margin: 55px 15px;
 }
 .header_nav {
 
-    width: 826px;
+    width: 626px;
     align-items: center;
-    font-size: 23px;
+    font-size: 29px;
     margin: 7px 0 0 60px;
 }
 .header_nav ul li {
@@ -31,4 +40,23 @@ figure {
 .header {
     height: 120px;
     width: 100%;
+}
+.text{
+    padding: 120px 0 0 90px;
+    margin-left: -1px;  
+    
+}
+.text h1{
+    color: #fff;
+    margin-top: 10px;
+}
+.text p{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 60;
+    margin-top: 19px;
+}
+
+.btn{
+    margin-top: 10px;
 }
