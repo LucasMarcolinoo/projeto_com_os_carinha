@@ -18,7 +18,6 @@ figure {
     margin: 55px 15px;
 }
 .header_nav {
-
     width: 826px;
     align-items: center;
     font-size: 23px;
@@ -31,4 +30,22 @@ figure {
 .header {
     height: 120px;
     width: 100%;
+}
+h1 {
+    font-size: 62px;
+    margin-bottom: 6%;
+}
+.title {
+    background-color: brown;
+    height: 230px;
+    width: 668px;
+    margin: 10.5rem 10%;
+}
+.title p {
+    font-size: 32px;
+}
+.text {
+    background-color: blue;
+    width: 506px;
+    height: 51px;
 }
