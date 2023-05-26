@@ -18,10 +18,11 @@ figure {
     margin: 55px 15px;
 }
 .header_nav {
-    width: 626px;
+
+    width: 826px;
     align-items: center;
     font-size: 23px;
-    margin: 5px 0 0 60px;
+    margin: 7px 0 0 60px;
 }
 .header_nav ul li {
     padding: 0 20px;
