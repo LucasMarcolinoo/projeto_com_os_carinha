@@ -27,12 +27,8 @@ figure {
     margin: 55px 15px;
 }
 .header_nav {
-<<<<<<< HEAD
-
     width: 626px;
-=======
     width: 826px;
->>>>>>> 8cfcb3e89b5cf0f361238761bbe7e66ddec9ded3
     align-items: center;
     font-size: 29px;
     margin: 7px 0 0 60px;
@@ -45,7 +41,7 @@ figure {
     height: 120px;
     width: 100%;
 }
-<<<<<<< HEAD
+
 .text{
     padding: 120px 0 0 90px;
     margin-left: -1px;  
@@ -64,7 +60,7 @@ figure {
 
 .btn{
     margin-top: 10px;
-=======
+}
 h1 {
     font-size: 62px;
     margin-bottom: 6%;
@@ -82,5 +78,4 @@ h1 {
     background-color: blue;
     width: 506px;
     height: 51px;
->>>>>>> 8cfcb3e89b5cf0f361238761bbe7e66ddec9ded3
 }
