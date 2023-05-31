@@ -123,3 +123,61 @@ button {
     cursor: pointer;
     background: #474747;
 }
+
+
+
+
+.container_2 {
+    Width: 100%;
+    Height: 910px;
+    background-color: aquamarine;
+    background: url(./images/backgroundEpisodes.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    width: 479px;
+    height: 546px;
+    margin: 259px 160px;
+}
+.text p {
+    font-size: 23px;
+    color: white;
+}
+.episodes {
+    width: 44%;
+    height: 70%;
+    margin: 99px 105px 0 0px;
+    overflow: auto;
+}
+.epi {
+    display: flex;
+}
+.epi figure img {
+    height: 120px;
+    width: 256px;
+    margin: 31px 33px 0 30px;
+}
+.episodes h3 {
+    color: #ffffff;
+    font-size: 22px;
+    margin: 16px 28px 16px 0;
+}
+.episodes .epi {
+    width: 741px;
+    height: 182px;
+    background-color: black;
+    margin: 6px 0;
+}
+.epi p {
+    font-size: 17px;
+    color: #ffffff;
+    margin: 0 28px 31px 0;
+    padding: 1px;
+}
+.epi #figure {
+    background-size: auto;
+    height: 100px;
+    width: 100px;
+}
