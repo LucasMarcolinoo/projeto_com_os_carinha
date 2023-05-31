@@ -34,6 +34,19 @@
     color: #FFFFFF;
 }
 
+.header_nav {
+    display: flex;
+    gap: 4rem;
+    font-weight: 300;
+    margin-top: 110px;
+    margin-left: 170px;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 25px;
+    background-color: #CCCCCC;
+    color: #FFFFFF;
+}
+
 .header {
     height: 120px;
     width: 100%;
