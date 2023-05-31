@@ -22,14 +22,16 @@
 }
 
 .header_nav {
-    width: 626px;
-    width: 826px;
-    align-items: center;
-    font-size: 29px;
-    margin: 7px 0 0 60px;
-}
-.header_nav ul li {
-    padding: 0 20px;
+    display: flex;
+    gap: 4rem;
+    font-weight: 300;
+    margin-top: 110px;
+    margin-left: 170px;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 25px;
+    background-color: #CCCCCC;
+    color: #FFFFFF;
 }
 
 .header_nav {
@@ -54,16 +56,6 @@
     padding: 120px 0 0 90px;
     margin-left: -1px;
 }
-
-.btn{
-    margin-top: 10px;
-}
-
-h1 {
-    font-size: 62px;
-    margin-bottom: 6%;
-}
-    
 
 .text h1 {
     position: absolute;
@@ -95,10 +87,6 @@ h1 {
 }
 
 .text {
-
-    background-color: blue;
-    width: 506px;
-    height: 51px;
     width: 406px;
     height: 41px;
 }
@@ -125,7 +113,7 @@ button {
 }
 
 
-
+/* tela 2 */
 
 .container_2 {
     Width: 100%;
@@ -136,12 +124,14 @@ button {
     display: flex;
     justify-content: space-between;
 }
-.text {
+
+.text_main {
     width: 479px;
     height: 546px;
     margin: 259px 160px;
 }
-.text p {
+
+.text_main p {
     font-size: 23px;
     color: white;
 }
