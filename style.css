@@ -1,31 +1,26 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    font-family:"Poppins", sans-serif;
-}
-
 .flex {
     display: flex;
-    justify-content: space-between;
-    
 }
+
 .container {
     background-image: url(./images/background.svg);
     height: 800px;
     width: 100%;
     background-size: cover;
 }
-figure {
-    margin: 15px 0px 0 50px;
+
+.figure {
+    height: 144px;
+    width: 254px;
+    border-radius: 0;
 }
+
 .container figure img {
     width: 254px;
     height: 144px;
     margin: 55px 15px;
 }
+
 .header_nav {
     width: 626px;
     width: 826px;
@@ -37,45 +32,94 @@ figure {
     padding: 0 20px;
 }
 
+.header_nav {
+    display: flex;
+    gap: 4rem;
+    font-weight: 300;
+    margin-top: 110px;
+    margin-left: 170px;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 25px;
+    background-color: #CCCCCC;
+    color: #FFFFFF;
+}
+
 .header {
     height: 120px;
     width: 100%;
 }
 
-.text{
+.text {
     padding: 120px 0 0 90px;
-    margin-left: -1px;  
-    
-}
-.text h1{
-    color: #fff;
-    margin-top: 10px;
-}
-.text p{
-    color: #fff;
-    font-size: 19px;
-    font-weight: 60;
-    margin-top: 19px;
+    margin-left: -1px;
 }
 
 .btn{
     margin-top: 10px;
 }
+
 h1 {
     font-size: 62px;
     margin-bottom: 6%;
 }
-.title {
-    background-color: brown;
+    
+
+.text h1 {
+    position: absolute;
+    height: 230px;
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 92px;
+    line-height: 89px;
+    color: #FFFFFF;
+}
+
+.text h3 {
+    margin-top: 100px;
+    width: 806px;
+    height: 50px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: rgba(199, 199, 199, 0.8);
+}
+
+.container-text {
     height: 230px;
     width: 668px;
-    margin: 10.5rem 10%;
+    border-radius: 0;
 }
-.title p {
-    font-size: 32px;
-}
+
 .text {
+
     background-color: blue;
     width: 506px;
     height: 51px;
+    width: 406px;
+    height: 41px;
+}
+
+button {
+    color: #FFFFFF;
+    background: #8E0000;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 144.18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn1 {
+    cursor: pointer;
+    background: #8E0000;
+}
+
+.btn2 {
+    cursor: pointer;
+    background: #474747;
 }
