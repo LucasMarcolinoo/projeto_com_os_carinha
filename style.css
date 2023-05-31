@@ -123,12 +123,12 @@ button {
     display: flex;
     justify-content: space-between;
 }
-.text {
+.text_main {
     width: 479px;
     height: 546px;
     margin: 259px 160px;
 }
-.text p {
+.text_main p {
     font-size: 23px;
     color: white;
 }
